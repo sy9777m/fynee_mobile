@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fynee/screen/my_page/s_my_page.dart';
 import 'package:fynee/screen/s_home.dart';
 import 'package:fynee/screen/s_log_in.dart';
-import 'package:fynee/screen/s_my_page.dart';
 import 'package:fynee/screen/s_route_page.dart';
 
 void main() {

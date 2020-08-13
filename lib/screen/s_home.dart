@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:fynee/screen/s_my_page.dart';
+import 'package:fynee/screen/my_page/s_my_page.dart';
 
 class HomePage extends StatelessWidget {
   static final String id = '/home_page';
@@ -32,6 +32,10 @@ class HomePage extends StatelessWidget {
             },
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(FontAwesomeIcons.bell),
+        onPressed: () {},
       ),
       body: SafeArea(
         child: Container(),

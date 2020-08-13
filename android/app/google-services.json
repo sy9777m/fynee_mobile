@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "152690554813",
+    "firebase_url": "https://fynee-49f9b.firebaseio.com",
+    "project_id": "fynee-49f9b",
+    "storage_bucket": "fynee-49f9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152690554813:android:132369bed13fc334f5c4d4",
+        "android_client_info": {
+          "package_name": "siyunmin.fynee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152690554813-ndm2ca52rdoj18j9r8jo90e0h3th7j3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "siyunmin.fynee",
+            "certificate_hash": "28d1e32e949e7bf4d4153d1b0e0078cf2b84060f"
+          }
+        },
+        {
+          "client_id": "152690554813-nikk1r2ie8i3qrqkhl0ikfu3fan9dmpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB52yCnRcTan9ID1mAdqo9mMrN3wvFPSsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152690554813-nikk1r2ie8i3qrqkhl0ikfu3fan9dmpn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "152690554813-lngqurvuaqd8g04pltratc8gfl440au6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "siyunmin.fynee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
