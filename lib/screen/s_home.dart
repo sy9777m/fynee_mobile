@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:fynee/screen/home/s_alert.dart';
 import 'package:fynee/screen/my_page/s_my_page.dart';
+import 'package:fynee/widget/w_fab.dart';
 
 class HomePage extends StatelessWidget {
   static final String id = '/home_page';
@@ -26,6 +28,11 @@ class HomePage extends StatelessWidget {
         title: Text('Fynee Home'),
         actions: [
           IconButton(
+              icon: Icon(FontAwesomeIcons.bell),
+              onPressed: () {
+                Navigator.pushNamed(context, AlertPage.id);
+              }),
+          IconButton(
             icon: Icon(FontAwesomeIcons.user),
             onPressed: () {
               Navigator.pushReplacementNamed(context, MyPage.id);
@@ -33,10 +40,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(FontAwesomeIcons.bell),
-        onPressed: () {},
-      ),
+      floatingActionButton: IncomeRateFAB(),
       body: SafeArea(
         child: Container(),
       ),
