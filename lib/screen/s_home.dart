@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
           IconButton(
             icon: Icon(FontAwesomeIcons.user),
             onPressed: () {
-              Navigator.pushReplacementNamed(context, MyPage.id);
+              Navigator.pushNamed(context, MyPage.id);
             },
           ),
         ],

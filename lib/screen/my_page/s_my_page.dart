@@ -9,16 +9,14 @@ class MyPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-          icon: Icon(FontAwesomeIcons.angleLeft),
-          onPressed: () {
-            Navigator.pushReplacementNamed(context, HomePage.id);
-          },
-        ),
+        title: Text('My Page'),
       ),
-      floatingActionButton: FloatingActionButton(child: Icon(FontAwesomeIcons.home), onPressed: () {
-        Navigator.pushReplacementNamed(context, HomePage.id);
-      },),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(FontAwesomeIcons.home),
+        onPressed: () {
+          Navigator.pushReplacementNamed(context, HomePage.id);
+        },
+      ),
       body: SafeArea(
         child: Center(
           child: Text('My Page'),

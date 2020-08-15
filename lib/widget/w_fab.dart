@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:fynee/screen/my_page/s_income_rate_page.dart';
+import 'package:fynee/screen/my_page/s_my_portfolio.dart';
 
 class IncomeRateFAB extends StatelessWidget {
   const IncomeRateFAB({

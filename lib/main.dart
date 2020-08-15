@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fynee/screen/home/s_alert.dart';
-import 'package:fynee/screen/my_page/s_income_rate_page.dart';
 import 'package:fynee/screen/my_page/s_my_page.dart';
+import 'package:fynee/screen/my_page/s_my_portfolio.dart';
 import 'package:fynee/screen/s_home.dart';
 import 'package:fynee/screen/s_log_in.dart';
 import 'package:fynee/screen/s_route_page.dart';
