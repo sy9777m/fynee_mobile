@@ -7,7 +7,7 @@ import 'package:fynee/widget/w_fab.dart';
 class HomePage extends StatelessWidget {
   static final String id = '/home_page';
 
-  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   Widget build(BuildContext context) {
